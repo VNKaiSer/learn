@@ -1,0 +1,6 @@
+- Event loop
+- Desgin parttern
+- Lỗi trong code
+- Thuật toán bên search
+- Hỏi trong CV
+- SOLID
