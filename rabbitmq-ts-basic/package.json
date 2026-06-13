@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm exec tsx main.ts",
-    "consumer": "pnpm exec tsx consumer.ts"
+    "start": "pnpm exec tsx --env-file=.env main.ts",
+    "consumer": "pnpm exec tsx --env-file=.env consumer.ts"
   },
   "keywords": [],
   "author": "",

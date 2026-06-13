@@ -1,6 +1,6 @@
 import amqp from 'amqplib';
 
-const RABBIRMQ_URL = 'amqp://kasier:4S12H2afTB5y@46.250.231.89:5672';
+const RABBIRMQ_URL = process.env.RABBITMQ_URL || 'amqp://localhost';
 
 const PDF_EXCHANGE = 'pdf.topic.exchange'; // Exchange chính
 const PDF_QUEUE = 'pdf.export.queue';       // Queue chính
